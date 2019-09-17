@@ -1,0 +1,28 @@
+/* CSS Document */
+
+/***********
+Fonts
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Roboto', sans-serif;
+Roboto: light 300, regular 400, regular 400 italic, bold 700
+***********/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.8;
+}
+.jumbotron {
+	padding: 3rem 0;
+	margin-bottom: 3.7rem;
+}
+.articleTitle {
+	font-size: 1.333rem;
+	line-height: 1.25;
+	font-family: 'Archivo Black', sans-serif;
+}
+.footer {
+	background-color: lightgray;
+	padding-bottom: 1.1rem;
+	margin-top: 3rem;
+}
