@@ -12,6 +12,13 @@ body {
 	font-size: 14px;
 	line-height: 1.8;
 }
+.navbar-light .navbar-brand {
+	font-size: 1rem;
+	font-weight: 700;
+}
+.navbar-light .navbar-brand span {
+	font-weight: 400;
+}
 .jumbotron {
 	padding: 3rem 0;
 	margin-bottom: 3.7rem;
@@ -21,8 +28,30 @@ body {
 	line-height: 1.25;
 	font-family: 'Archivo Black', sans-serif;
 }
+.jumbotron .container p {
+	margin-bottom: 0;
+}
+p {
+	margin-bottom: 3rem;
+}
+img {
+	margin-bottom: 1.05rem;
+}
+.cutline {
+	font-style: italic;
+}
+.flipNext {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
 .footer {
 	background-color: lightgray;
+	padding-top: 3.25rem;
 	padding-bottom: 1.1rem;
 	margin-top: 3rem;
+}
+.footer h3 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.333rem;
+	line-height: 1.5;
 }
