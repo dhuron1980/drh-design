@@ -5,12 +5,22 @@ Fonts
 font-family: 'Archivo Black', sans-serif;
 font-family: 'Roboto', sans-serif;
 Roboto: light 300, regular 400, regular 400 italic, bold 700
+
+Colors
+Dark Blue #3f445c
+Gray #1a1a1a
+Light Gray #F7F7F7
+Orange #B37C56
 ***********/
 
+html {
+	font-size: 14px;
+}
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
 	line-height: 1.8;
+	background-color: #F7F7F7;
+	color:#1a1a1a;
 }
 .navbar-light .navbar-brand {
 	font-size: 1rem;
@@ -19,14 +29,19 @@ body {
 .navbar-light .navbar-brand span {
 	font-weight: 400;
 }
+.bg-light {
+	background-color: #F7F7F7!important;
+}
 .jumbotron {
 	padding: 3rem 0;
 	margin-bottom: 3.7rem;
+	background-color: darkgray;
 }
 .articleTitle {
 	font-size: 1.333rem;
 	line-height: 1.25;
 	font-family: 'Archivo Black', sans-serif;
+	margin-bottom: .5rem;
 }
 .jumbotron .container p {
 	margin-bottom: 0;
@@ -45,13 +60,102 @@ img {
 	transform: scaleX(-1);
 }
 .footer {
-	background-color: lightgray;
-	padding-top: 3.25rem;
+	background-color: #3f445c;
+	padding: 3.25rem 0 0;
 	padding-bottom: 1.1rem;
-	margin-top: 3rem;
+	margin: 3.25rem 0 0;
 }
 .footer h3 {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 1.333rem;
-	line-height: 1.5;
+	line-height: 1.6;
+	color: #f7f7f7;
+}
+.footer h3 a {
+	color: #B37C56;
+}
+.footer h3 a:hover {
+	color: #B37C56;
+}
+.footer ul {
+	margin: 1.5rem 0;
+}
+.footer p {
+	margin-bottom: 0;
+	font-size: 1rem;
+	font-style: italic;
+	color: #f7f7f7;
+}
+.footer a {
+	color:#F7F7F7;
+}
+.footer a:hover {
+	color:#F7F7F7;
+}
+.footer ul a:hover {
+	color: #B37C56;
+}
+.prevProject {
+	background:url(../img/next.svg) center center no-repeat;
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+
+}
+.nextProject {
+	background:url(../img/next.svg) center center no-repeat;
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	float: right;
+}
+.portfolioLink {
+	margin: 0;
+	padding-top: .25rem;
+	vertical-align: middle;
+}
+a {
+	color:#3f445c;
+}
+a:hover {
+	color:#3f445c;
+}
+
+@media screen and (min-width:376px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width:576px) {
+	html {
+		font-size: 16px;
+	}
+	.jumbotron {
+		padding: 5rem 0;
+		margin-bottom: 4.1rem;
+	}
+	.jumbotron .container p:first-of-type {
+		margin-bottom: .5rem;
+	}
+	p {
+		margin-bottom: 4rem;
+	}
+	img {
+		margin-bottom: 1.5rem;
+	}
+}
+
+@media screen and (min-width:992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	html {
+		font-size: 20px;
+	}
 }
