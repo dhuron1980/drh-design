@@ -7,8 +7,9 @@
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:300,400,400i,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Gravitas+One|Neuton:400,400i,700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style2.css">
 <title>Daniel R. Huron | UX Design and Research</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span> 
 		</button>
-		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 			<ul class="navbar-nav">
 				<li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
 				<li class="nav-item"> <a class="nav-link" href="#">Portfolio</a> </li>
@@ -25,44 +26,54 @@
 		</div>
 	</nav>
 	<div class="jumbotron jumbotron-fluid">
-		<div class="container text-center">
-			<p>Updating Website Template</p>
-			<h1 class="articleTitle">What questions should a graduate program website answer?</h1>
-			<p>Group Research | Personas | Transforming Findings</p>
+		<div class="container-fluid text-center">
+			<p class="pageSubject">Updating Website Template</p>
+			<h1 class="articleTitle col-md-10 offset-md-1 col-lg-8 offset-lg-2">What questions should a graduate program website answer?</h1>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container portfolioBody">
 		<div class="row justify-content-center">
-			<div class="col-10 col-sm-8">
-				<p>Instead of copying and pasting our website c*ontent into a new templa*te, I decided to optimize the content for potential graduate students. To do this right, though, I needed to know what types of information these students needed and when they needed it.</p>
+			<div class="col-10 col-sm-8 pageIntro">
+				<p class="overview">Group Research | Personas | Transform Findings</p>
+				<p class="sectionIntro">Instead of copying and pasting our website content into a new template, I decided to optimize the content for potential graduate students. To do this right, though, I needed to know what types of information these students needed and when they needed it.</p>
 			</div>
-			<div class="col-12 col-sm-10"> 
-				<img src="img/Current-CP-Homepage.jpg" alt="Previous Counseling Psychology Website" class="img-fluid"> 
+			<div class="col-12 col-sm-10">
+				<a href="img/Current-CP-Homepage.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/Current-CP-Homepage.jpg" alt="Original Counseling Psychology Website" class="img-fluid">
+				</a>
 			</div>
 			<div class="col-10 col-sm-8">
 				<p class="cutline">Original Counseling Psychology program homepage.</p>
 			</div>
 			<div class="col-10 col-sm-8">
-				<h5>Research</h5>
+				<h5 class="sectionHeader">Research</h5>
 				<p>I began by researching the decision-making process with a focus on choosing college programs. Using student profiles posted on our website, I developed user personas for our Counseling Psychology and School Psychology programs. This information helped develop questions for the next round of research.</p>
 			</div>
-			<div class="col-12 col-sm-10"> 
-				<img src="img/Student-Profile-Page.jpg" alt="Previous Counseling Psychology Website" class="img-fluid"> 
+			<div class="col-12 col-sm-10">
+				<a href="img/Student-Profile-Page.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/Student-Profile-Page.jpg" alt="Counseling Psychology student profile page" class="img-fluid">
+				</a>
 			</div>
 			<div class="col-10 col-sm-8">
 				<p class="cutline">Counseling Psychology student profile page.</p>
 			</div>
 			<div class="col-12 col-sm-10"> 
-				<img src="img/Data-Spreadsheet.jpg" alt="Previous Counseling Psychology Website" class="img-fluid"> 
+				<a href="img/Data-Spreadsheet.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/Data-Spreadsheet.jpg" alt="Student data broken down." class="img-fluid">
+				</a>
 			</div>
 			<div class="col-10 col-sm-8">
 				<p class="cutline">Profile data broken down into a spreadsheet.</p>
 			</div>
-			<div class="col-12 col-sm-5"> 
-				<img src="img/Persona-Design1.jpg" alt="School Psychology Persona" class="img-fluid border"> 
+			<div class="col-12 col-sm-8 col-md-5"> 
+				<a href="img/Persona-Design1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/Persona-Design1.jpg" alt="Angie, School Psychology persona" class="img-fluid">
+				</a>
 			</div>
-			<div class="col-12 col-sm-5"> 
-				<img src="img/Persona-Design2.jpg" alt="Counseling Psychology Persona" class="img-fluid border"> 
+			<div class="col-12 col-sm-8 col-md-5"> 
+				<a href="img/Persona-Design2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/Persona-Design2.jpg" alt="Jada, Counseling Psychology persona" class="img-fluid">
+				</a>
 			</div>
 			<div class="col-10 col-sm-8">
 				<p class="cutline">Two personas: Angie, a future School Psychology student, and Jada, a future Counseling Psychology student.</p>
@@ -71,41 +82,47 @@
 				<p>I intended to interview undergraduate students about their graduate school search process. Because I worked alone, I decided this approach would take too much time. Instead, I organized group journey mapping sessions with current graduate students and program faculty. The conversations and maps created during these sessions helped me see the search process from multiple perspectives.</p>
 			</div>
 			<div class="col-12 col-sm-10"> 
-				<img src="img/Process-Faculty-and-Current-Students.jpg" alt="Mapping session artifact" class="img-fluid"> 
+				<a href="img/Process-Faculty-and-Current-Students.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/Process-Faculty-and-Current-Students.jpg" alt="Journey mapping artifact" class="img-fluid">
+				</a>
 			</div>
 			<div class="col-10 col-sm-8">
 				<p class="cutline">Data from the group journey mapping session.</p>
 			</div>
 			<div class="col-12 col-sm-10"> 
-				<img src="img/Question-Map.jpg" alt="Question map" class="img-fluid border"> 
+				<a href="img/Question-Map.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/Question-Map.jpg" alt="Question Map" class="img-fluid">
+				</a>
 			</div>
 			<div class="col-10 col-sm-8">
 				<p class="cutline">I used my findings to develop a map outlining the questions students might ask during the college search process.</p>
 			</div>
 
 			<div class="col-10 col-sm-8">
-				<h5>Transforming Findings</h5>
+				<h5 class="sectionHeader">Transform Findings</h5>
 				<p>My research showed that potential students visited our website during the early stages of their search. Our old site was hosting information students needed during the latter stages of their search or after they began the program. For the new site, I prioritized general program information, financial aid, research activities and information about the City of Houston. I am working to ensure program website copy reflects the unique motivations and qualities of their target student.</p>
 			</div>
 			<div class="col-12 col-sm-10"> 
-				<img src="img/New-counseling-psych-site.jpg" alt="Revamped Counseling Psychology Website" class="img-fluid"> 
+				<a href="img/New-counseling-psych-site.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+					<img src="img/New-counseling-psych-site.jpg" alt="New Counseling Psychology Website" class="img-fluid">
+				</a>
 			</div>
 			<div class="col-10 col-sm-8">
 				<p class="cutline">The updated Counseling Psychology website.</p>
 			</div>
 			<div class="col-10 col-sm-8">
-				<h5>Future Projects</h5>
+				<h5 class="sectionHeader">Future Projects</h5>
 				<p>This project was motivated by the need to update our template. In the future, I will user test the template to determine if it meets the needs of our potential students. I also need more feedback from undergraduate students. One benefit of working for one department is the ability to design research projects that build on the findings of previous projects. With that in mind, my next effort will focus heavily on undergrads.</p>
 			</div>
 			<div class="w-100"></div>
 			<div class="col-2">
-				<a href="#" class="prevProject">&nbsp;</a>
+				<a href="index.html" class="prevProject">&nbsp;</a>
 			</div>
 			<div class="col-6">
 				<h5 class="text-center portfolioLink"><a href="#">View Portfolio</a></h5>
 			</div>
 			<div class="col-2">
-				<a href="updating-website-template.html" class="nextProject">&nbsp;</a>
+				<a href="http://www.google.com" class="nextProject">&nbsp;</a>
 			</div>
 
 		</div>
@@ -113,13 +130,13 @@
 	<div class="footer text-center">
 		<div class="row justify-content-center">
 			<div class="col-10">
-				<h3>Interested in working together? Contact me by <a href="#">email</a> or by using this <a href="#">form</a>.</h3>
+				<h3 class="articleTitle col-md-10 offset-md-1">Interested in working together? Contact me by <a href="#">email</a> or by using this <a href="#">form</a>.</h3>
 				<ul class="nav justify-content-center">
 					<li class="nav-item"> <a class="nav-link active" href="#">About</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="#">Portfolio</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
 				</ul>
-				<p>&copy; 2019 Daniel R. Huron</p>
+				<p class="copyrightNotice">&copy; 2019 Daniel R. Huron</p>
 			</div>
 		</div>
 	</div>
@@ -128,5 +145,15 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
+<script>
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+</script>
 </body>
 </html>
