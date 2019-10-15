@@ -25,6 +25,10 @@ body {
 	color: rgb(15,15,15,0.75);
 }
 
+a.nav-link:hover {
+	text-decoration: underline;
+}
+
 .navbar-light .navbar-brand span {
 	font-weight: 400;
 }
@@ -137,6 +141,10 @@ a.nextProject:hover {
 
 .footer a {
 	color:rgb(218,127,77);
+}
+
+.footer a:hover {
+	text-decoration: underline;
 }
 
 .copyrightNotice {
