@@ -68,6 +68,10 @@ a.nav-link:hover {
 	margin-bottom: 0;
 }
 
+.portfolioBody a {
+	color:rgb(76,123,168);
+}
+
 .lastGraph {
 	margin-bottom: 4rem;
 }
@@ -77,6 +81,10 @@ a.nav-link:hover {
 }
 
 img {
+	margin-bottom: 1.25rem;
+}
+
+.embed-responsive {
 	margin-bottom: 1.25rem;
 }
 
